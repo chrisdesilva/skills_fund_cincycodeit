@@ -61,7 +61,7 @@ export const schoolInfo = { // term details section
 
 export const faq = { // faq section
     costOfLiving: true, // true if at least one program has cost of living included
-    costOfLivingPrograms: 'Full-Time .NET and Full-Time Java', // leave as empty string is cost of living availability is the same across all programs
+    costOfLivingPrograms: 'Full-Time .NET and Full-Time Java programs', // leave as empty string is cost of living availability is the same across all programs
     multCostOfLivingPrograms: true, // true if costOfLivingPrograms string has more than one program
     interestOnly: true, // true if interest-only payments are an option
     immediateRepayment: false, // true if immediate repayment is an option
