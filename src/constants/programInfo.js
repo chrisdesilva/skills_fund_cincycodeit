@@ -84,13 +84,13 @@ export const faq = { // faq section
     // max loan amounts by program for faq1
     loanRange: [
         {
-            programName: "CincyCodeIT's Full-Time .NET and Java Coding Bootcamps",
+            programName: "MAX Technical Training's Full-Time .NET and Java Coding Bootcamps",
             maxAmount: "$14,000",
             col: true,
             colAmount: "$3,000"
         },
         {
-            programName: "CincyCodeIT's Part-Time Java Coding Bootcamp",
+            programName: "MAX Technical Training's Part-Time Java Coding Bootcamp",
             maxAmount: "$14,000",
             col: false,
             colAmount: "$6,000"
@@ -104,13 +104,13 @@ export const faq = { // faq section
 
 export const schoolLogo = logo // go to header.js if height needs adjustment
 
-export const schoolName = "Cincy Code IT"
+export const schoolName = "MAX Technical Training"
 
 export const schoolURL = 'https://maxtrain.com/' // update with url of school's website
 
 export const skfURL = 'https://maxtrain.skills.fund/' // update with Skills Fund url
 
-export const headline = "Learn to Code at Cincy Code IT" // update headline as appropriate
+export const headline = "Learn to Code at MAX Technical Training" // update headline as appropriate
 
 export const leadContent = {
     header: "Your last step on the path toward changing your career",
