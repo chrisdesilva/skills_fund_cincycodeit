@@ -161,6 +161,12 @@ export const faq = {
       col: false,
       colAmount: "$6,000",
     },
+    {
+      programName: "MAX Technical Training's MAXimum Coding Bootcamp",
+      maxAmount: "$15,500",
+      col: true,
+      colAmount: "$3,000",
+    },
   ],
 }
 
@@ -343,6 +349,78 @@ export const programLoanInfo = [
     loanInfo: {
       // match loanInfo in first metro below
       maxLoanAmt: 14000,
+      loanTerm36: true,
+      loanTerm60: true,
+      "Interest Only": {
+        k: 10,
+        apr36: 11.26,
+        apr60: 12.69,
+      },
+      "Immediate Repayment": null,
+    },
+    defaultLoanType: "Interest Only", // leave at 0 for interest-only, set to 1 for immediate repayment
+    showMetros: false,
+    showLoanTypes: false,
+    loanTypes: ["Interest Only"],
+    locations: ["Metro A", "Metro B", "Metro C"],
+    metros: [
+      {
+        location: "Metro A",
+        loanInfo: {
+          // match loanInfo to Program 3 loanInfo above
+          maxLoanAmt: 14000,
+          loanTerm36: true,
+          loanTerm60: true,
+          "Interest Only": {
+            k: 10,
+            apr36: 11.26,
+            apr60: 12.69,
+          },
+          "Immediate Repayment": null,
+        },
+      },
+      {
+        location: "Metro B",
+        loanInfo: {
+          maxLoanAmt: 15545,
+          loanTerm36: true,
+          loanTerm60: true,
+          "Interest Only": {
+            k: 5,
+            apr36: 11.16,
+            apr60: 12.51,
+          },
+          "Immediate Repayment": {
+            apr36: 11.25,
+            apr60: 12.55,
+          },
+        },
+      },
+      {
+        location: "Metro C",
+        loanInfo: {
+          maxLoanAmt: 20545,
+          loanTerm36: true,
+          loanTerm60: true,
+          "Interest Only": {
+            k: 5,
+            apr36: 11.16,
+            apr60: 12.51,
+          },
+          "Immediate Repayment": {
+            apr36: 11.25,
+            apr60: 12.55,
+          },
+        },
+      },
+    ],
+  },
+  {
+    name: "MAXimum Coding Bootcamp",
+    url: "https://my.skills.fund/application?lenderCode=SFMTTMAXCB21",
+    loanInfo: {
+      // match loanInfo in first metro below
+      maxLoanAmt: 15500,
       loanTerm36: true,
       loanTerm60: true,
       "Interest Only": {
